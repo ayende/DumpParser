@@ -7,6 +7,7 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using Winterdom.Diagnostics;
 
 namespace ClrMD_Test
 {
@@ -45,9 +46,10 @@ namespace ClrMD_Test
         static void Main(string[] args)
         {
             var path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
-            var dumpData = DataTarget.LoadCrashDump("C:\\Work\\Dumps\\Raven4_1_full.dmp");
+			var dumpData = DataTarget.LoadCrashDump(@"C:\Users\Ayende\Downloads\Raven.Unresponsive-on-indexing\Raven.Server.DMP");
             dumpData.SetSymbolPath(path);
-            var dacLocation = dumpData.ClrVersions[0].TryGetDacLocation();
+	        var dacLocator = DacLocator.FromPublicSymbolServer("cache");
+	        var dacLocation = dacLocator.FindDac(dumpData.ClrVersions[0]);
             var runtime = dumpData.CreateRuntime(dacLocation);
             var heap = runtime.GetHeap();
             

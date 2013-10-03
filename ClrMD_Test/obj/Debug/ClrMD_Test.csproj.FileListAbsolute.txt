@@ -9,3 +9,14 @@ c:\users\michael\documents\visual studio 2012\Projects\ClrMD_Test\ClrMD_Test\bin
 c:\users\michael\documents\visual studio 2012\Projects\ClrMD_Test\ClrMD_Test\bin\Debug\EPPlus.xml
 C:\Users\Michael\Documents\Visual Studio 2012\Projects\ClrMD_Test\ClrMD_Test\bin\Debug\DiffLib.dll
 C:\Users\Michael\Documents\Visual Studio 2012\Projects\ClrMD_Test\ClrMD_Test\bin\Debug\DiffLib.xml
+C:\Work\DumpParser\ClrMD_Test\bin\Debug\ClrMD_Test.exe.config
+C:\Work\DumpParser\ClrMD_Test\obj\Debug\ClrMD_Test.exe
+C:\Work\DumpParser\ClrMD_Test\obj\Debug\ClrMD_Test.pdb
+C:\Work\DumpParser\ClrMD_Test\bin\Debug\ClrMD_Test.exe
+C:\Work\DumpParser\ClrMD_Test\bin\Debug\ClrMD_Test.pdb
+C:\Work\DumpParser\ClrMD_Test\bin\Debug\DiffLib.dll
+C:\Work\DumpParser\ClrMD_Test\bin\Debug\EPPlus.dll
+C:\Work\DumpParser\ClrMD_Test\bin\Debug\DiffLib.xml
+C:\Work\DumpParser\ClrMD_Test\bin\Debug\EPPlus.xml
+C:\Work\DumpParser\ClrMD_Test\bin\Debug\Microsoft.Diagnostics.Runtime.xml
+C:\Work\DumpParser\ClrMD_Test\obj\Debug\ClrMD_Test.csprojResolveAssemblyReference.cache
